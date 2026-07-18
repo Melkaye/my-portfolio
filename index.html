@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Melka MG | Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: #333;
+            background: #f9fafb;
+        }
+
+        header {
+            background: #1f2937;
+            color: white;
+            padding: 20px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 18px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 30px 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        .hero {
+            background: white;
+            border-radius: 12px;
+            padding: 40px 30px;
+            text-align: center;
+            box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+        }
+
+        .hero h2 {
+            margin-top: 0;
+            font-size: 36px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin: 16px auto 0;
+            max-width: 720px;
+        }
+
+        h2 {
+            color: #111827;
+            margin-bottom: 18px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 28px;
+            box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+        }
+
+        .resume-list,
+        .skills-list,
+        .publication-list {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .resume-list li,
+        .skills-list li,
+        .publication-list li {
+            margin-bottom: 10px;
+        }
+
+        .skills-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 12px;
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills-list li {
+            background: #e2e8f0;
+            border-radius: 8px;
+            padding: 10px 14px;
+        }
+
+        .section-title {
+            margin-bottom: 6px;
+            font-size: 20px;
+            color: #0f172a;
+        }
+
+        .subtle {
+            color: #475569;
+        }
+
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        @media (max-width: 760px) {
+            .two-column {
+                grid-template-columns: 1fr;
+            }
+
+            header {
+                text-align: center;
+            }
+
+            nav {
+                margin-top: 12px;
+            }
+
+            nav a {
+                margin-left: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Melka MG</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#resume">Resume</a>
+            <a href="#publications">Publications</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="home" class="hero">
+            <h2>Genomic Data Science | AI & ML Research</h2>
+            <p>Geneticist with programming experience in Unix/Linux, R package development, and Python. Passionate about
+                research, development, and implementation of genetic technologies, genomic evaluation systems, and
+                data-driven solutions.</p>
+        </section>
+
+        <section id="about" class="card">
+            <h2>About Me</h2>
+            <p class="subtle">Passionate in applications of AI and ML to solve real-life problems involving data
+                science. I combine molecular genetics expertise with computational analysis to support projects in gene
+                expression, population diversity, genome-wide association studies, next-generation sequencing, and
+                epigenomics. I also bring valuable transferable skills from my research work and education that position
+                me for success in the tech industry.</p>
+            <ul class="resume-list">
+                <li>Experienced in managing large datasets and implementing computational strategies for genomic
+                    research.</li>
+                <li>Completed the Genomic Data Science specialization from Johns Hopkins University.</li>
+                <li>Certificate-trained in teaching, with strong evaluation reports and a dedication to research and
+                    education excellence.</li>
+            </ul>
+        </section>
+
+        <section id="resume" class="card">
+            <h2>Resume</h2>
+            <div class="two-column">
+                <div>
+                    <h3 class="section-title">Professional Experience</h3>
+                    <p><strong>Associate Professor of Genetics and Genomics</strong><br><span class="subtle">August 2023
+                            – Present</span></p>
+                    <p><strong>Assistant Professor of Genetics and Genomics</strong><br><span class="subtle">August 2017
+                            – July 2023</span></p>
+                </div>
+                <div>
+                    <h3 class="section-title">Education</h3>
+                    <p><strong>Ph.D. in Genetics</strong></p>
+                </div>
+            </div>
+
+            <h3 class="section-title">Key Qualifications & Skills</h3>
+            <ul class="skills-list">
+                <li>Next-generation sequence data analysis (whole-genome, RNA-seq)</li>
+                <li>Genome-wide DNA methylation analysis</li>
+                <li>Statistical software (JMP)</li>
+                <li>Genotype imputation to whole-genome sequence</li>
+                <li>Programming: Unix, C++, R, Python</li>
+                <li>Database management and SQL</li>
+                <li>Genome databases: HapMap, 1000 Genomes</li>
+                <li>Pathway analysis (Ingenuity Pathway Analysis)</li>
+                <li>Genotype/phenotype association (MERLIN, PLINK)</li>
+                <li>Meta analysis (METAL)</li>
+                <li>Haplotype association analysis (UNPHASED)</li>
+                <li>Copy number variation analysis (Affy genotyping console, dCHIP)</li>
+                <li>Genetic variation analysis with genome-wide SNPs and genealogies</li>
+            </ul>
+
+            <h3 class="section-title">Additional Training</h3>
+            <ul class="resume-list">
+                <li>Database Programming, Computing Fundamentals, Programming with Java, Version Control with Git, SQL,
+                    Python, JavaScript (2024-2025)</li>
+                <li>Algorithms for DNA Sequencing, Johns Hopkins University (2021)</li>
+                <li>Python for Genomic Data Science, Johns Hopkins University (2021)</li>
+                <li>Command Line Tools for Genomic Data Science, Johns Hopkins University (2021)</li>
+                <li>Statistics for Genomic Data Science, Johns Hopkins University (2021)</li>
+                <li>Bioconductor for Genomic Data Science, Johns Hopkins University (2021)</li>
+                <li>Galaxy for Genomic Data Science, Johns Hopkins University (2021)</li>
+            </ul>
+        </section>
+
+        <section id="publications" class="card">
+            <h2>Selected Publications</h2>
+            <ol class="publication-list">
+                <li><strong>Castellani CA, Melka MG, Rajakumar R, O’Reilly RL, Singh SM.</strong> Genomes of monozygotic
+                    twins discordant for schizophrenia delineate de novo features of twin differences and disease
+                    threshold. <em>Clinical and Translational Medicine</em>. 2017.</li>
+                <li><strong>Melka MG, Castellani CA, Laufer BI, Dehiel E, Singh SM.</strong> DNA Methylation in
+                    Psychosis: insights into aetiology and treatment. <em>Epigenomics: Future Medicine</em>. 2015;
+                    7(1):67-74.</li>
+                <li><strong>Castellani CA, Melka MG, Rajakumar N, O’Reilly R, Singh SM.</strong> DNA Methylation Across
+                    Monozygotic Twin Pairs Discordant for Schizophrenia Identifies Shared Genes and Networks. <em>BMC
+                        Medical Genomics</em>. 2015; 8:17.</li>
+                <li><strong>Melka MG, Castellani CA, O’Reilly R, Singh SM.</strong> Insights into the origin of DNA
+                    methylation in monozygotic twins discordant for schizophrenia. <em>Molecular Psychiatry</em>. 2015;
+                    3(1):7.</li>
+                <li><strong>Melka MG, Laufer BI, Castellani CA, McDonald P, Rajakumar N, O’Reilly R, Singh SM.</strong>
+                    The effects of olanzapine on genome-wide DNA methylation in rat hippocampus and cerebellum.
+                    <em>Clinical Epigenetics</em>. 2014; 6(1):1.
+                </li>
+            </ol>
+        </section>
+    </div>
+</body>
+
+</html>
